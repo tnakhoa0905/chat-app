@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -8,7 +10,7 @@ import 'package:timeago/timeago.dart';
 import '../core/constants.dart';
 import '../models/message.dart';
 import '../models/profile.dart';
-import 'home_page.dart';
+// import 'home_page.dart';
 
 /// Page to chat with someone.
 ///
@@ -120,7 +122,6 @@ class _ChatPageState extends State<ChatPage> {
   }
 }
 
-// ignore: must_be_immutable
 /// Set of widget that contains TextField and Button to submit message
 class _MessageBar extends StatefulWidget {
   _MessageBar({Key? key, required this.idChat}) : super(key: key);

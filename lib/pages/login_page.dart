@@ -1,6 +1,6 @@
 import 'package:chat_app_clone/pages/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:chat_app_clone/pages/chat_page.dart';
+// import 'package:chat_app_clone/pages/chat_page.dart';
 
 import 'package:supabase_flutter/supabase_flutter.dart';
 

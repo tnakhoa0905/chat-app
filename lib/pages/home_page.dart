@@ -33,6 +33,7 @@ class _HomePageState extends State<HomePage> {
     final data =
         await supabase.from('user').select().eq('id', myUserId).single();
     print(data);
+
     profile = Profile.fromMap(data);
     setState(() {});
   }
